@@ -1,0 +1,67 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 280% 280%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#pricing .card {
+  border-color: #000 !important;
+}
+
+#pricing .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
+#pricing .card.mb-4.shadow-sm.border-primary {
+  border-color: #000 !important;
+}
+
+#pricing .card-header.text-bg-primary {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+#pricing .btn-outline-primary {
+  color: #000;
+  border-color: #000;
+}
+
+#pricing .btn-outline-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#pricing .btn-primary {
+  background-color: #000;
+  border-color: #000;
+}
+
+#pricing .btn-primary:hover {
+  background-color: #333;
+  border-color: #000;
+}
